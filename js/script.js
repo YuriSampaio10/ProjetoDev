@@ -108,7 +108,7 @@ function adicionaClasseAoRolar() {
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
-    if (window.screen.width > largura && window.pageYOffset > 300) {
+    if (window.screen.width > largura && window.pageYOffset > 10) {
 
       tagSVG.classList.add('coracao1');
       tagSVG2.classList.add('pasta1');

@@ -34,13 +34,13 @@
     <div id="main">
       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
     </div>
-    <img class="logo" src="img\DermaSoft.png">
+    <img class="logo" src="img\DermaSoft.png" alt="Logo da DermaSoft" >
 
     <div class="dropdown">
       <button class="dropbtn"><img src="img/iconAvatar.png" alt=""></button>
       <div class="dropdown-content">
         <a href="#">Informações de Perfil</a>
-        <a href="#">Sair🚪</a>
+        <a href="index.html">Sair🚪</a>
       </div>
     </div>
   </div>
@@ -76,20 +76,23 @@
         <button id="buttonRegistrar" type="submit">Registrar</button>
       </form>
 
-      <div id="popup" style="display: none;">
+      <div id="popup">
         <img src="img/iconeOk.png" alt="imagem de check">
-
         <button onclick="fecharPopup()" type="submit">Fechar</button>
+        <p>CADASTRO CONCLUÍDO</p>
       </div>
+     
     </div>
 
     </form>
   </div>
 
-
-  <p class="copyright">
-    Clínica DermaSoft. 2023. Todos os direitos reservados
-  </p>
+  <div class="copyright">
+    <p class="copyright">
+      Clínica DermaSoft. 2023. Todos os direitos reservados
+    </p>
+  </div>
+  
 
   <script src="js/cadastroDoPaciente.js"></script>
 
