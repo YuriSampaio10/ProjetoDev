@@ -68,7 +68,7 @@ function adicionaClasseAoRolar() {
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura && window.pageYOffset > 300) {
+    if (window.screen.width <= largura && window.pageYOffset > 50) {
       // minhaDiv.classList.add('animacaoAtiva');
 
       tagSVG.classList.add('coracao1');
@@ -82,7 +82,7 @@ function adicionaClasseAoRolar() {
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura && window.pageYOffset > 600) {
+    if (window.screen.width <= largura && window.pageYOffset > 100) {
 
       tagSVG2.classList.add('pasta1');
       var fraseicone2 = document.querySelector('.fraseicone2');
@@ -95,7 +95,7 @@ function adicionaClasseAoRolar() {
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura && window.pageYOffset > 850) {
+    if (window.screen.width <= largura && window.pageYOffset > 200) {
 
       tagSVG3.classList.add('check1');
       var fraseicone3 = document.querySelector('.fraseicone3');
